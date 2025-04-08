@@ -1,0 +1,43 @@
+/* 全体の基本設定 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダー */
+header {
+  width: 1000px;
+  background-color: #ffcccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* フッター */
+footer {
+  width: 1000px;
+  background-color: #ffccff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* コンテンツ全体の囲い（#wrapper） */
+#wrapper {
+  width: 1000px;
+  display: flex;
+}
+
+/* メインコンテンツ */
+#main {
+  width: 700px;
+  background-color: #ccffcc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* メニューサイドバー */
+#menu {
+  width: 300px;
+  background-color: #ccccff;
+  padding: 10px;
+  box-sizing: border-box;
+}
